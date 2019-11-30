@@ -14,6 +14,8 @@
 		CE3FC8F8238D992300DDF4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3FC8F7238D992300DDF4E0 /* Assets.xcassets */; };
 		CE3FC8FB238D992300DDF4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3FC8F9238D992300DDF4E0 /* LaunchScreen.storyboard */; };
 		CE3FC906238D992300DDF4E0 /* CodeAcademyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FC905238D992300DDF4E0 /* CodeAcademyProjectTests.swift */; };
+		CE3FC911239047F600DDF4E0 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FC910239047F600DDF4E0 /* CalculatorVC.swift */; };
+		CE3FC9132390528400DDF4E0 /* HelloWorldButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FC9122390528400DDF4E0 /* HelloWorldButtonVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		CE3FC901238D992300DDF4E0 /* CodeAcademyProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeAcademyProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3FC905238D992300DDF4E0 /* CodeAcademyProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAcademyProjectTests.swift; sourceTree = "<group>"; };
 		CE3FC907238D992300DDF4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3FC910239047F600DDF4E0 /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
+		CE3FC9122390528400DDF4E0 /* HelloWorldButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldButtonVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,10 @@
 		CE3FC8ED238D992100DDF4E0 /* CodeAcademyProject */ = {
 			isa = PBXGroup;
 			children = (
+				CED0E43D2392CF0200A09200 /* Lesson 2 */,
+				CED0E43C2392CEE200A09200 /* Lesson 1 */,
 				CE3FC8EE238D992100DDF4E0 /* AppDelegate.swift */,
 				CE3FC8F0238D992100DDF4E0 /* SceneDelegate.swift */,
-				CE3FC8F2238D992100DDF4E0 /* ViewController.swift */,
 				CE3FC8F4238D992100DDF4E0 /* Main.storyboard */,
 				CE3FC8F7238D992300DDF4E0 /* Assets.xcassets */,
 				CE3FC8F9238D992300DDF4E0 /* LaunchScreen.storyboard */,
@@ -97,6 +102,23 @@
 				CE3FC907238D992300DDF4E0 /* Info.plist */,
 			);
 			path = CodeAcademyProjectTests;
+			sourceTree = "<group>";
+		};
+		CED0E43C2392CEE200A09200 /* Lesson 1 */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FC8F2238D992100DDF4E0 /* ViewController.swift */,
+			);
+			path = "Lesson 1";
+			sourceTree = "<group>";
+		};
+		CED0E43D2392CF0200A09200 /* Lesson 2 */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FC910239047F600DDF4E0 /* CalculatorVC.swift */,
+				CE3FC9122390528400DDF4E0 /* HelloWorldButtonVC.swift */,
+			);
+			path = "Lesson 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3FC9132390528400DDF4E0 /* HelloWorldButtonVC.swift in Sources */,
+				CE3FC911239047F600DDF4E0 /* CalculatorVC.swift in Sources */,
 				CE3FC8F3238D992100DDF4E0 /* ViewController.swift in Sources */,
 				CE3FC8EF238D992100DDF4E0 /* AppDelegate.swift in Sources */,
 				CE3FC8F1238D992100DDF4E0 /* SceneDelegate.swift in Sources */,
