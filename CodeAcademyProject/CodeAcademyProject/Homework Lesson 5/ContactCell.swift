@@ -1,24 +1,23 @@
 //
-//  RecepieTableViewCell.swift
+//  ContactCell.swift
 //  CodeAcademyProject
 //
-//  Created by Arvydas Klimavicius on 2019-12-02.
+//  Created by Arvydas Klimavicius on 2019-12-08.
 //  Copyright © 2019 Arvydas Klimavicius. All rights reserved.
 //
 
 import UIKit
 
-class RecepieTableViewCell: UITableViewCell {
+class ContactCell: UITableViewCell {
+
+    @IBOutlet weak var nameTxtLabel: UILabel!
+    @IBOutlet weak var phoneNumberTxtLbl: UILabel!
     
-    @IBOutlet weak var recepieTableViewCell: UIView!
-    @IBOutlet weak var recepieImage: UIImageView!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        recepieImage.layer.cornerRadius = 8.0
-        recepieImage.clipsToBounds = true
-        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -20,6 +20,12 @@
 		CED0E464239428C800A09200 /* LegalMargaritaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0E463239428C800A09200 /* LegalMargaritaVC.swift */; };
 		CEE5BED2239591CA0059590E /* ReciepesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BED1239591CA0059590E /* ReciepesViewController.swift */; };
 		CEE5BED42395A0F80059590E /* RecepieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BED32395A0F80059590E /* RecepieTableViewCell.swift */; };
+		CEE5BED7239808F90059590E /* LoginScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BED6239808F90059590E /* LoginScreenVC.swift */; };
+		CEE5BED9239811C80059590E /* LoggedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BED8239811C80059590E /* LoggedVC.swift */; };
+		CEE5BEDC239933200059590E /* RecepieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BEDB239933200059590E /* RecepieDetailVC.swift */; };
+		CEE5BEDE2399650E0059590E /* CardGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BEDD2399650E0059590E /* CardGameViewController.swift */; };
+		CEE5BEE1239D5C910059590E /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BEE0239D5C910059590E /* ContactsVC.swift */; };
+		CEE5BEE4239D5F3C0059590E /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BEE3239D5F3C0059590E /* ContactCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,12 @@
 		CED0E463239428C800A09200 /* LegalMargaritaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalMargaritaVC.swift; sourceTree = "<group>"; };
 		CEE5BED1239591CA0059590E /* ReciepesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciepesViewController.swift; sourceTree = "<group>"; };
 		CEE5BED32395A0F80059590E /* RecepieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieTableViewCell.swift; sourceTree = "<group>"; };
+		CEE5BED6239808F90059590E /* LoginScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenVC.swift; sourceTree = "<group>"; };
+		CEE5BED8239811C80059590E /* LoggedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedVC.swift; sourceTree = "<group>"; };
+		CEE5BEDB239933200059590E /* RecepieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieDetailVC.swift; sourceTree = "<group>"; };
+		CEE5BEDD2399650E0059590E /* CardGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameViewController.swift; sourceTree = "<group>"; };
+		CEE5BEE0239D5C910059590E /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
+		CEE5BEE3239D5F3C0059590E /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,12 +103,15 @@
 		CE3FC8ED238D992100DDF4E0 /* CodeAcademyProject */ = {
 			isa = PBXGroup;
 			children = (
+				CE3FC8EE238D992100DDF4E0 /* AppDelegate.swift */,
+				CE3FC8F0238D992100DDF4E0 /* SceneDelegate.swift */,
 				CED0E43D2392CF0200A09200 /* Lesson 2 */,
 				CED0E43C2392CEE200A09200 /* Lesson 1 */,
 				CED0E46223941DC900A09200 /* Homework Lesson 3 */,
 				CEE5BED52395A14B0059590E /* Lesson 4 */,
-				CE3FC8EE238D992100DDF4E0 /* AppDelegate.swift */,
-				CE3FC8F0238D992100DDF4E0 /* SceneDelegate.swift */,
+				CEE5BEDA23992B450059590E /* Homework Lesson 4 */,
+				CEE5BEDF239967E20059590E /* Lesson 5 */,
+				CEE5BEE2239D5CA10059590E /* Homework Lesson 5 */,
 				CE3FC8F4238D992100DDF4E0 /* Main.storyboard */,
 				CE3FC8F7238D992300DDF4E0 /* Assets.xcassets */,
 				CE3FC8F9238D992300DDF4E0 /* LaunchScreen.storyboard */,
@@ -145,8 +160,35 @@
 			children = (
 				CEE5BED1239591CA0059590E /* ReciepesViewController.swift */,
 				CEE5BED32395A0F80059590E /* RecepieTableViewCell.swift */,
+				CEE5BEDB239933200059590E /* RecepieDetailVC.swift */,
 			);
 			path = "Lesson 4";
+			sourceTree = "<group>";
+		};
+		CEE5BEDA23992B450059590E /* Homework Lesson 4 */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5BED6239808F90059590E /* LoginScreenVC.swift */,
+				CEE5BED8239811C80059590E /* LoggedVC.swift */,
+			);
+			path = "Homework Lesson 4";
+			sourceTree = "<group>";
+		};
+		CEE5BEDF239967E20059590E /* Lesson 5 */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5BEDD2399650E0059590E /* CardGameViewController.swift */,
+			);
+			path = "Lesson 5";
+			sourceTree = "<group>";
+		};
+		CEE5BEE2239D5CA10059590E /* Homework Lesson 5 */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5BEE0239D5C910059590E /* ContactsVC.swift */,
+				CEE5BEE3239D5F3C0059590E /* ContactCell.swift */,
+			);
+			path = "Homework Lesson 5";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,11 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE5BEE4239D5F3C0059590E /* ContactCell.swift in Sources */,
+				CEE5BED7239808F90059590E /* LoginScreenVC.swift in Sources */,
+				CEE5BEDC239933200059590E /* RecepieDetailVC.swift in Sources */,
 				CED0E464239428C800A09200 /* LegalMargaritaVC.swift in Sources */,
 				CEE5BED42395A0F80059590E /* RecepieTableViewCell.swift in Sources */,
 				CE3FC9132390528400DDF4E0 /* HelloWorldButtonVC.swift in Sources */,
+				CEE5BEE1239D5C910059590E /* ContactsVC.swift in Sources */,
 				CED0E46123941DBB00A09200 /* GreetingsViewController.swift in Sources */,
 				CE3FC911239047F600DDF4E0 /* CalculatorVC.swift in Sources */,
+				CEE5BEDE2399650E0059590E /* CardGameViewController.swift in Sources */,
+				CEE5BED9239811C80059590E /* LoggedVC.swift in Sources */,
 				CE3FC8F3238D992100DDF4E0 /* ViewController.swift in Sources */,
 				CE3FC8EF238D992100DDF4E0 /* AppDelegate.swift in Sources */,
 				CEE5BED2239591CA0059590E /* ReciepesViewController.swift in Sources */,

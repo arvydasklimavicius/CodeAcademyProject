@@ -10,7 +10,9 @@ class ReciepesViewController: UIViewController, UITableViewDelegate, UITableView
 
 
     
-    let recepiesArray = [UIImage(named: "maistas7"),
+    let recepiesArray = //[UIImage] = [#imageLiteral(resourceName: "maistas12"),#imageLiteral(resourceName: "maistas8"),#imageLiteral(resourceName: "maistas10"),#imageLiteral(resourceName: "maistas6"),#imageLiteral(resourceName: "maistas9"),#imageLiteral(resourceName: "maistas7") ]
+        
+                        [UIImage(named: "maistas7"),
                          UIImage(named: "maistas8"),
                          UIImage(named: "maistas9"),
                          UIImage(named: "maistas10"),
@@ -44,6 +46,15 @@ class ReciepesViewController: UIViewController, UITableViewDelegate, UITableView
 
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "RecepieDetailVC") as! RecepieDetailVC
+        
+        vc.originalImage = recepiesArray[indexPath.row]
+            
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 
