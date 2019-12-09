@@ -26,6 +26,7 @@
 		CEE5BEDE2399650E0059590E /* CardGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BEDD2399650E0059590E /* CardGameViewController.swift */; };
 		CEE5BEE1239D5C910059590E /* ContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BEE0239D5C910059590E /* ContactsVC.swift */; };
 		CEE5BEE4239D5F3C0059590E /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BEE3239D5F3C0059590E /* ContactCell.swift */; };
+		CEE5BEE6239E52B80059590E /* AddContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BEE5239E52B80059590E /* AddContactVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		CEE5BEDD2399650E0059590E /* CardGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameViewController.swift; sourceTree = "<group>"; };
 		CEE5BEE0239D5C910059590E /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
 		CEE5BEE3239D5F3C0059590E /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		CEE5BEE5239E52B80059590E /* AddContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				CEE5BEE0239D5C910059590E /* ContactsVC.swift */,
 				CEE5BEE3239D5F3C0059590E /* ContactCell.swift */,
+				CEE5BEE5239E52B80059590E /* AddContactVC.swift */,
 			);
 			path = "Homework Lesson 5";
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				CE3FC911239047F600DDF4E0 /* CalculatorVC.swift in Sources */,
 				CEE5BEDE2399650E0059590E /* CardGameViewController.swift in Sources */,
 				CEE5BED9239811C80059590E /* LoggedVC.swift in Sources */,
+				CEE5BEE6239E52B80059590E /* AddContactVC.swift in Sources */,
 				CE3FC8F3238D992100DDF4E0 /* ViewController.swift in Sources */,
 				CE3FC8EF238D992100DDF4E0 /* AppDelegate.swift in Sources */,
 				CEE5BED2239591CA0059590E /* ReciepesViewController.swift in Sources */,

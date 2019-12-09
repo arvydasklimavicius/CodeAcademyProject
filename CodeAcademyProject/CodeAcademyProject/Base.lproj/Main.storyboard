@@ -438,8 +438,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="baw-Fo-d6m">
+                            <searchBar contentMode="redraw" showsCancelButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="baw-Fo-d6m">
                                 <rect key="frame" x="0.0" y="88" width="414" height="56"/>
+                                <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="k7A-9Q-CCP">
@@ -459,8 +460,8 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vE-GY-2zP">
-                                                    <rect key="frame" x="352" y="11" width="42" height="48"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vE-GY-2zP">
+                                                    <rect key="frame" x="394" y="11" width="0.0" height="48"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -497,14 +498,69 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rkG-8J-BJx"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Black Book" id="HaQ-At-OLw"/>
+                    <navigationItem key="navigationItem" title="Black Book" id="HaQ-At-OLw">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="EzK-Xe-t3C">
+                            <connections>
+                                <segue destination="LuE-xb-abQ" kind="show" id="ESH-DZ-Jud"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="contactsTableView" destination="k7A-9Q-CCP" id="T2d-eu-oaG"/>
+                        <outlet property="searchContacts" destination="baw-Fo-d6m" id="SG2-SM-tpY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qgI-Dx-MxX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-781.15942028985512" y="989.73214285714278"/>
+        </scene>
+        <!--Add ContactVC-->
+        <scene sceneID="wOV-t0-MVm">
+            <objects>
+                <viewController id="LuE-xb-abQ" customClass="AddContactVC" customModule="CodeAcademyProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xex-gk-W5w">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wjx-oh-COO">
+                                <rect key="frame" x="20" y="187" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lX-AR-J2K">
+                                <rect key="frame" x="102" y="273" width="210" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3k1-VJ-L4I"/>
+                                    <constraint firstAttribute="width" constant="210" id="LUR-lr-ccf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveContactBtnTapped:" destination="LuE-xb-abQ" eventType="touchUpInside" id="OZU-EQ-6EO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eXR-Sw-q7c" firstAttribute="trailing" secondItem="wjx-oh-COO" secondAttribute="trailing" constant="20" id="1rY-3L-FdF"/>
+                            <constraint firstItem="wjx-oh-COO" firstAttribute="leading" secondItem="eXR-Sw-q7c" secondAttribute="leading" constant="20" id="5UJ-iZ-6tF"/>
+                            <constraint firstItem="7lX-AR-J2K" firstAttribute="top" secondItem="wjx-oh-COO" secondAttribute="bottom" constant="52" id="8QT-A0-1si"/>
+                            <constraint firstItem="wjx-oh-COO" firstAttribute="top" secondItem="eXR-Sw-q7c" secondAttribute="top" constant="99" id="Hcd-ik-27X"/>
+                            <constraint firstItem="7lX-AR-J2K" firstAttribute="centerX" secondItem="xex-gk-W5w" secondAttribute="centerX" id="sEx-80-3XD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eXR-Sw-q7c"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="io8-TC-N33"/>
+                    <connections>
+                        <outlet property="addContactTxtField" destination="wjx-oh-COO" id="qB0-C3-ko3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cMM-Ol-ENr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20.289855072463769" y="1239.5089285714284"/>
         </scene>
         <!--Greeting-->
         <scene sceneID="P47-au-Z9N">
