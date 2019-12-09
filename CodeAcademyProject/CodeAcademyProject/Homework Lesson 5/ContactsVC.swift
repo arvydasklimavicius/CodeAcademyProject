@@ -8,6 +8,8 @@
 
 import UIKit
 
+var contactsArray = ["Arvydas", "Tomas", "Simas", "Laimonas", "Cezaris", "Mindaugas", "Jogaila", "Martynas"]
+
 class ContactsVC: UIViewController, UITableViewDelegate, UISearchBarDelegate, UITableViewDataSource  {
     
     @IBOutlet weak var contactsTableView: UITableView!
@@ -15,7 +17,7 @@ class ContactsVC: UIViewController, UITableViewDelegate, UISearchBarDelegate, UI
     
     //var contactsArray = ["Arvydas":"861813301", "Tomas": "123456" ]
 
-    var contactsArray = ["Arvydas", "Tomas", "Simas", "Laimonas", "Cezaris", "Mindaugas", "Jogaila"]
+    
     var searchArray = [String]()
     var isSearching = false
 
@@ -72,6 +74,10 @@ class ContactsVC: UIViewController, UITableViewDelegate, UISearchBarDelegate, UI
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         isSearching = false
         searchBar.text = ""
+        contactsTableView.reloadData()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         contactsTableView.reloadData()
     }
     

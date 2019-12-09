@@ -10,9 +10,11 @@ import UIKit
 
 class AddContactVC: UIViewController {
     
-    var newContact = [String]()
+    
 
     @IBOutlet weak var addContactTxtField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +23,12 @@ class AddContactVC: UIViewController {
     
     @IBAction func saveContactBtnTapped(_ sender: UIButton) {
         
-        newContact.append(addContactTxtField.text!)
+        if addContactTxtField != nil {
+            contactsArray.append(addContactTxtField.text!)
+            addContactTxtField.text = ""
+        }
+        
+        
         
     }
     
