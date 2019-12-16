@@ -24,7 +24,7 @@ class AddContactVC: UIViewController {
     @IBAction func saveContactBtnTapped(_ sender: UIButton) {
         
         if addContactTxtField != nil {
-            contactsArray.append(addContactTxtField.text!)
+//            contactsArray.append(addContactTxtField.text!)
             addContactTxtField.text = ""
         }
         
