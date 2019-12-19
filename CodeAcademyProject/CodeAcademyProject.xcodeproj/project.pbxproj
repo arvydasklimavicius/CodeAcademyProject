@@ -17,7 +17,10 @@
 		CE3FC906238D992300DDF4E0 /* CodeAcademyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FC905238D992300DDF4E0 /* CodeAcademyProjectTests.swift */; };
 		CE3FC911239047F600DDF4E0 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FC910239047F600DDF4E0 /* CalculatorVC.swift */; };
 		CE3FC9132390528400DDF4E0 /* HelloWorldButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FC9122390528400DDF4E0 /* HelloWorldButtonVC.swift */; };
-		CEC3249623A29C1F003740DA /* VViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3249523A29C1F003740DA /* VViewController.swift */; };
+		CE63E43C23A7FF10008950E7 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43B23A7FF10008950E7 /* ContactListViewController.swift */; };
+		CE63E43E23A802E9008950E7 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43D23A802E9008950E7 /* ContactTableViewCell.swift */; };
+		CE63E44023A810C9008950E7 /* AddNewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43F23A810C9008950E7 /* AddNewContactViewController.swift */; };
+		CEC3249623A29C1F003740DA /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3249523A29C1F003740DA /* LessonViewController.swift */; };
 		CED0E46123941DBB00A09200 /* GreetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0E46023941DBB00A09200 /* GreetingsViewController.swift */; };
 		CED0E464239428C800A09200 /* LegalMargaritaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0E463239428C800A09200 /* LegalMargaritaVC.swift */; };
 		CEE5BED2239591CA0059590E /* ReciepesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BED1239591CA0059590E /* ReciepesViewController.swift */; };
@@ -57,7 +60,10 @@
 		CE3FC907238D992300DDF4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3FC910239047F600DDF4E0 /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
 		CE3FC9122390528400DDF4E0 /* HelloWorldButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldButtonVC.swift; sourceTree = "<group>"; };
-		CEC3249523A29C1F003740DA /* VViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VViewController.swift; sourceTree = "<group>"; };
+		CE63E43B23A7FF10008950E7 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		CE63E43D23A802E9008950E7 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		CE63E43F23A810C9008950E7 /* AddNewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactViewController.swift; sourceTree = "<group>"; };
+		CEC3249523A29C1F003740DA /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
 		CED0E46023941DBB00A09200 /* GreetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewController.swift; sourceTree = "<group>"; };
 		CED0E463239428C800A09200 /* LegalMargaritaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalMargaritaVC.swift; sourceTree = "<group>"; };
 		CEE5BED1239591CA0059590E /* ReciepesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciepesViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +128,7 @@
 				CEE5BEE2239D5CA10059590E /* Homework Lesson 5 */,
 				CEE5BEE7239EB9DC0059590E /* Lesson 6 */,
 				CEC3249423A29BFD003740DA /* Lesson 7 */,
+				CE63E43A23A7DD38008950E7 /* Lesson 8 */,
 				CE3FC8F4238D992100DDF4E0 /* Main.storyboard */,
 				CE3FC8F7238D992300DDF4E0 /* Assets.xcassets */,
 				CE3FC8F9238D992300DDF4E0 /* LaunchScreen.storyboard */,
@@ -139,10 +146,20 @@
 			path = CodeAcademyProjectTests;
 			sourceTree = "<group>";
 		};
+		CE63E43A23A7DD38008950E7 /* Lesson 8 */ = {
+			isa = PBXGroup;
+			children = (
+				CE63E43B23A7FF10008950E7 /* ContactListViewController.swift */,
+				CE63E43D23A802E9008950E7 /* ContactTableViewCell.swift */,
+				CE63E43F23A810C9008950E7 /* AddNewContactViewController.swift */,
+			);
+			path = "Lesson 8";
+			sourceTree = "<group>";
+		};
 		CEC3249423A29BFD003740DA /* Lesson 7 */ = {
 			isa = PBXGroup;
 			children = (
-				CEC3249523A29C1F003740DA /* VViewController.swift */,
+				CEC3249523A29C1F003740DA /* LessonViewController.swift */,
 			);
 			path = "Lesson 7";
 			sourceTree = "<group>";
@@ -321,8 +338,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE5BEE4239D5F3C0059590E /* ContactCell.swift in Sources */,
-				CEC3249623A29C1F003740DA /* VViewController.swift in Sources */,
+				CE63E43C23A7FF10008950E7 /* ContactListViewController.swift in Sources */,
+				CEC3249623A29C1F003740DA /* LessonViewController.swift in Sources */,
 				CEE5BED7239808F90059590E /* LoginScreenVC.swift in Sources */,
+				CE63E44023A810C9008950E7 /* AddNewContactViewController.swift in Sources */,
 				CEE5BEDC239933200059590E /* RecepieDetailVC.swift in Sources */,
 				CED0E464239428C800A09200 /* LegalMargaritaVC.swift in Sources */,
 				CEE5BED42395A0F80059590E /* RecepieTableViewCell.swift in Sources */,
@@ -337,6 +356,7 @@
 				CEE5BEE6239E52B80059590E /* AddContactVC.swift in Sources */,
 				CE3FC8F3238D992100DDF4E0 /* ViewController.swift in Sources */,
 				CE3FC8EF238D992100DDF4E0 /* AppDelegate.swift in Sources */,
+				CE63E43E23A802E9008950E7 /* ContactTableViewCell.swift in Sources */,
 				CEE5BED2239591CA0059590E /* ReciepesViewController.swift in Sources */,
 				CE3FC8F1238D992100DDF4E0 /* SceneDelegate.swift in Sources */,
 			);
