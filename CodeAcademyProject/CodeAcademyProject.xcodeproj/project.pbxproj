@@ -21,6 +21,8 @@
 		CE4B27F323ABF81C009BBC9F /* DatRecepieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B27F223ABF81C009BBC9F /* DatRecepieVC.swift */; };
 		CE4B27F523ABF8DD009BBC9F /* DatAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B27F423ABF8DD009BBC9F /* DatAppCell.swift */; };
 		CE4B27F723AC0644009BBC9F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B27F623AC0644009BBC9F /* DataModel.swift */; };
+		CE4B27F923B8E617009BBC9F /* RestaurantsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B27F823B8E617009BBC9F /* RestaurantsDetailVC.swift */; };
+		CE4B27FB23B8E632009BBC9F /* RecepiesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B27FA23B8E632009BBC9F /* RecepiesDetailVC.swift */; };
 		CE63E43C23A7FF10008950E7 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43B23A7FF10008950E7 /* ContactListViewController.swift */; };
 		CE63E43E23A802E9008950E7 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43D23A802E9008950E7 /* ContactTableViewCell.swift */; };
 		CE63E44023A810C9008950E7 /* AddNewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43F23A810C9008950E7 /* AddNewContactViewController.swift */; };
@@ -68,6 +70,8 @@
 		CE4B27F223ABF81C009BBC9F /* DatRecepieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatRecepieVC.swift; sourceTree = "<group>"; };
 		CE4B27F423ABF8DD009BBC9F /* DatAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatAppCell.swift; sourceTree = "<group>"; };
 		CE4B27F623AC0644009BBC9F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CE4B27F823B8E617009BBC9F /* RestaurantsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsDetailVC.swift; sourceTree = "<group>"; };
+		CE4B27FA23B8E632009BBC9F /* RecepiesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepiesDetailVC.swift; sourceTree = "<group>"; };
 		CE63E43B23A7FF10008950E7 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		CE63E43D23A802E9008950E7 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		CE63E43F23A810C9008950E7 /* AddNewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactViewController.swift; sourceTree = "<group>"; };
@@ -170,6 +174,8 @@
 				CE4B27F223ABF81C009BBC9F /* DatRecepieVC.swift */,
 				CE4B27F623AC0644009BBC9F /* DataModel.swift */,
 				CE4B27F423ABF8DD009BBC9F /* DatAppCell.swift */,
+				CE4B27F823B8E617009BBC9F /* RestaurantsDetailVC.swift */,
+				CE4B27FA23B8E632009BBC9F /* RecepiesDetailVC.swift */,
 			);
 			path = "Lesson 9 Recepie App";
 			sourceTree = "<group>";
@@ -370,6 +376,7 @@
 				CEC3249623A29C1F003740DA /* LessonViewController.swift in Sources */,
 				CEE5BED7239808F90059590E /* LoginScreenVC.swift in Sources */,
 				CE4B27F523ABF8DD009BBC9F /* DatAppCell.swift in Sources */,
+				CE4B27FB23B8E632009BBC9F /* RecepiesDetailVC.swift in Sources */,
 				CE63E44023A810C9008950E7 /* AddNewContactViewController.swift in Sources */,
 				CEE5BEDC239933200059590E /* RecepieDetailVC.swift in Sources */,
 				CED0E464239428C800A09200 /* LegalMargaritaVC.swift in Sources */,
@@ -387,6 +394,7 @@
 				CE4B27F723AC0644009BBC9F /* DataModel.swift in Sources */,
 				CEE5BEE6239E52B80059590E /* AddContactVC.swift in Sources */,
 				CE3FC8F3238D992100DDF4E0 /* ViewController.swift in Sources */,
+				CE4B27F923B8E617009BBC9F /* RestaurantsDetailVC.swift in Sources */,
 				CE3FC8EF238D992100DDF4E0 /* AppDelegate.swift in Sources */,
 				CE63E43E23A802E9008950E7 /* ContactTableViewCell.swift in Sources */,
 				CEE5BED2239591CA0059590E /* ReciepesViewController.swift in Sources */,

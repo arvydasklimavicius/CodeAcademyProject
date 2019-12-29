@@ -90,6 +90,22 @@ class DatRecepieVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        
+        if indexPath.section == 0 {
+            let restaurantsVC = storyboard?.instantiateViewController(identifier: "RestaurantsDetailVC") as! RestaurantsDetailVC
+            restaurantsVC.restaurantDetailImage = restaurantsArray[indexPath.row].restaurantImage
+            restaurantsVC.restaurantsDetailLabel = restaurantsArray[indexPath.row].restaurantLabel
+            self.navigationController?.pushViewController(restaurantsVC, animated: true)
+        } else {
+            let recepiesVC = storyboard?.instantiateViewController(identifier: "RecepiesDetailVC") as! RecepiesDetailVC
+            recepiesVC.detailedRecepiesImage = recepieArray[indexPath.row].recepieImage
+            recepiesVC.detailedRecepiesLabel = recepieArray[indexPath.row].recepieLabel
+            self.navigationController?.pushViewController(recepiesVC, animated: true)
+        }
+    }
+    
 
     
 

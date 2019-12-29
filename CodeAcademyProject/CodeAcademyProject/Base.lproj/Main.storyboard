@@ -1532,7 +1532,95 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D0a-aZ-dL2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="973.91304347826099" y="-1252.2321428571429"/>
+            <point key="canvasLocation" x="1052" y="-1519"/>
+        </scene>
+        <!--Recepies DetailVC-->
+        <scene sceneID="lB9-zn-uXe">
+            <objects>
+                <viewController storyboardIdentifier="RecepiesDetailVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dni-xH-MQy" customClass="RecepiesDetailVC" customModule="CodeAcademyProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KW1-z7-cnq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hui-f7-9Yw">
+                                <rect key="frame" x="152" y="176" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDl-05-QeV">
+                                <rect key="frame" x="176.5" y="144" width="61.5" height="34.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ceh-z3-XWe">
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="2k3-UE-MYw"/>
+                                    <constraint firstAttribute="width" constant="300" id="HKw-GK-Y7t"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.62596318493150682" green="0.6931988441780822" blue="0.947265625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zDl-05-QeV" firstAttribute="top" secondItem="qjn-XI-90Q" secondAttribute="top" constant="100" id="LWc-at-i9R"/>
+                            <constraint firstItem="ceh-z3-XWe" firstAttribute="centerY" secondItem="KW1-z7-cnq" secondAttribute="centerY" id="OJO-23-8xe"/>
+                            <constraint firstItem="zDl-05-QeV" firstAttribute="centerX" secondItem="KW1-z7-cnq" secondAttribute="centerX" id="pW8-qZ-YBt"/>
+                            <constraint firstItem="ceh-z3-XWe" firstAttribute="centerX" secondItem="KW1-z7-cnq" secondAttribute="centerX" id="vcT-DE-zyq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qjn-XI-90Q"/>
+                    </view>
+                    <connections>
+                        <outlet property="recepiesDetaiImage" destination="ceh-z3-XWe" id="MOr-xW-65M"/>
+                        <outlet property="recepiesDetailLabel" destination="zDl-05-QeV" id="sWz-5E-Txt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4pw-T3-8x3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1751" y="-1231"/>
+        </scene>
+        <!--Restaurants DetailVC-->
+        <scene sceneID="5Ro-xu-Iuo">
+            <objects>
+                <viewController storyboardIdentifier="RestaurantsDetailVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="q3l-ko-NE0" customClass="RestaurantsDetailVC" customModule="CodeAcademyProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j9h-zg-DP8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mes-Tv-0wb">
+                                <rect key="frame" x="182.5" y="144" width="49" height="27.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xdc-Lt-Gdk">
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="1yt-ah-Is3"/>
+                                    <constraint firstAttribute="width" constant="300" id="W2z-Bh-sqD"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xdc-Lt-Gdk" firstAttribute="centerX" secondItem="j9h-zg-DP8" secondAttribute="centerX" id="Uda-BH-iMa"/>
+                            <constraint firstItem="mes-Tv-0wb" firstAttribute="centerX" secondItem="j9h-zg-DP8" secondAttribute="centerX" id="f36-KC-KgR"/>
+                            <constraint firstItem="Xdc-Lt-Gdk" firstAttribute="centerY" secondItem="j9h-zg-DP8" secondAttribute="centerY" id="gCa-D7-eAF"/>
+                            <constraint firstItem="mes-Tv-0wb" firstAttribute="top" secondItem="b5d-ut-jdZ" secondAttribute="top" constant="100" id="sn9-xt-kVy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="b5d-ut-jdZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="restaurantDetailImg" destination="Xdc-Lt-Gdk" id="EBj-u9-EeG"/>
+                        <outlet property="restaurantDetailLbl" destination="mes-Tv-0wb" id="wyW-dP-4qr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DX9-M0-pIp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1750.7246376811595" y="-1887.0535714285713"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="MXN-Xn-UB6">
