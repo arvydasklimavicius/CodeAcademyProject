@@ -11,7 +11,7 @@ import UIKit
 class DatRecepieVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var recepieTableView: UITableView!
     
-    var restaurantsData = [(restaurantImage: UIImage, restaurantLabel: String)]()
+    var restaurantsArray = [(restaurantImage: UIImage, restaurantLabel: String)]()
     var recepieArray = [(recepieImage: UIImage, recepieLabel: String)]()
     
     override func viewDidLoad() {
@@ -19,10 +19,10 @@ class DatRecepieVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         recepieTableView.dataSource = self
         recepieTableView.delegate = self
         
-        restaurantsData = [
-            (UIImage(named: "maistas12")!, restaurantLabel: "Macadonalds"),
-            (UIImage(named: "maistas9")!, restaurantLabel: "Macadonalds"),
-            (UIImage(named: "maistas10")!, restaurantLabel: "Macadonalds")
+        restaurantsArray = [
+            (UIImage(named: "Costa")!, restaurantLabel: "Costa Caffe"),
+            (UIImage(named: "Caffe_Nero")!, restaurantLabel: "Caffe Nero"),
+            (UIImage(named: "Dunkin_Donuts")!, restaurantLabel: "Dunkin' Donuts")
             
             
             
@@ -30,11 +30,23 @@ class DatRecepieVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         
         recepieArray = [
             
-            (UIImage(named: "maistas6")!, recepieLabel: "Test")
+            (UIImage(named: "Green_Mauntain")!, recepieLabel: "Green Mountain"),
+            (UIImage(named: "Pret")!, recepieLabel: "Pret"),
+            (UIImage(named: "Starbucks")!, recepieLabel: "Starbucks"),
+            (UIImage(named: "mccafe")!, recepieLabel: "McCafe")
+            
+            
+            
             
         ]
         
         
+    }
+    
+    enum TableViewSections: Int {
+        case restaurants
+        case recepies
+        case unknown
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -50,24 +62,30 @@ class DatRecepieVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return restaurantsData.count
+        
+        
+        switch section {
+        case TableViewSections.restaurants.rawValue:
+            return restaurantsArray.count
+            
+        case TableViewSections.recepies.rawValue:
+            return recepieArray.count
+        default:
+                return .zero
+        }
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "dataCell", for: indexPath) as! DatAppCell
         
-        let image = restaurantsData[indexPath.row].restaurantImage
-        let label = restaurantsData[indexPath.row].restaurantLabel
-        
-        let recepieImage = recepieArray[indexPath.row].recepieImage
-        let recepieLabel = recepieArray[indexPath.row].recepieLabel
-        
-        cell.dataTextLbl.text  = recepieLabel
-        cell.dataImageView.image = recepieImage
-    
-        
-        cell.dataImageView.image = image
-        cell.dataTextLbl.text = label
+        if indexPath.section == 0 {
+            cell.dataImageView.image = restaurantsArray[indexPath.row].restaurantImage
+            cell.dataTextLbl.text = restaurantsArray[indexPath.row].restaurantLabel
+        } else {
+            cell.dataImageView.image = recepieArray[indexPath.row].recepieImage
+            cell.dataTextLbl.text = recepieArray[indexPath.row].recepieLabel
+        }
         
         return cell
     }
