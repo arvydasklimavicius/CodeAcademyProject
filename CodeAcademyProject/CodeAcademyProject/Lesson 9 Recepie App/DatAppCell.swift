@@ -14,12 +14,15 @@ class DatAppCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        dataImageView.layer.cornerRadius = dataImageView.frame.width / 2
+        dataImageView.layer.borderWidth = 0.8
+        dataImageView.layer.borderColor = UIColor.black.cgColor
         
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+  
         
     }
 

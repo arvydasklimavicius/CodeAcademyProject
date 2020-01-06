@@ -12,15 +12,18 @@ class RestaurantsDetailVC: UIViewController {
     
     @IBOutlet weak var restaurantDetailLbl: UILabel!
     @IBOutlet weak var restaurantDetailImg: UIImageView!
+    @IBOutlet weak var restaurantDetailDescription: UILabel!
     
     var restaurantDetailImage: UIImage?
     var restaurantsDetailLabel: String?
+    var restaurantDescriptionLbl: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         restaurantDetailImg.image = restaurantDetailImage
         restaurantDetailLbl.text = restaurantsDetailLabel
+        restaurantDetailDescription.text = restaurantDescriptionLbl
         
         restaurantDetailImg.layer.cornerRadius = restaurantDetailImg.frame.width / 2
         restaurantDetailImg.layer.borderWidth = 8

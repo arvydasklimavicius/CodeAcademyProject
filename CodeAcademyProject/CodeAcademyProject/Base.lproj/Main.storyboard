@@ -1468,7 +1468,7 @@
             </objects>
             <point key="canvasLocation" x="160.86956521739131" y="-1251.5625"/>
         </scene>
-        <!--Dat RecepieVC-->
+        <!--RecepieApp-->
         <scene sceneID="0rW-h4-MZM">
             <objects>
                 <viewController id="oe0-g2-mFQ" customClass="DatRecepieVC" customModule="CodeAcademyProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -1476,18 +1476,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="qni-Nv-t6C">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="qni-Nv-t6C">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataCell" rowHeight="151" id="vPu-ST-WBI" customClass="DatAppCell" customModule="CodeAcademyProject" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="55.5" width="374" height="151"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="151"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vPu-ST-WBI" id="UEH-Hf-zsX">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="151"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="151"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nRk-aW-sgY">
                                                     <rect key="frame" x="4" y="4" width="120" height="143"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="120" id="Mmn-rW-OcX"/>
                                                         <constraint firstAttribute="width" constant="120" id="p0r-K4-ubR"/>
@@ -1525,7 +1527,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="73F-3O-Srn"/>
                     </view>
-                    <navigationItem key="navigationItem" id="vDx-yk-JFx"/>
+                    <navigationItem key="navigationItem" title="RecepieApp" id="vDx-yk-JFx"/>
                     <connections>
                         <outlet property="recepieTableView" destination="qni-Nv-t6C" id="Hcs-Gb-hKT"/>
                     </connections>
@@ -1598,22 +1600,35 @@
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xdc-Lt-Gdk">
                                 <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="1yt-ah-Is3"/>
                                     <constraint firstAttribute="width" constant="300" id="W2z-Bh-sqD"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZj-La-XWu">
+                                <rect key="frame" x="107" y="678" width="200" height="27.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ZKz-8R-YrP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.17039948037671232" blue="0.74970569349315064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.67564747431506844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Xdc-Lt-Gdk" firstAttribute="centerX" secondItem="j9h-zg-DP8" secondAttribute="centerX" id="Uda-BH-iMa"/>
+                            <constraint firstItem="vZj-La-XWu" firstAttribute="centerX" secondItem="j9h-zg-DP8" secondAttribute="centerX" id="WPP-mm-Uv8"/>
                             <constraint firstItem="mes-Tv-0wb" firstAttribute="centerX" secondItem="j9h-zg-DP8" secondAttribute="centerX" id="f36-KC-KgR"/>
                             <constraint firstItem="Xdc-Lt-Gdk" firstAttribute="centerY" secondItem="j9h-zg-DP8" secondAttribute="centerY" id="gCa-D7-eAF"/>
+                            <constraint firstItem="vZj-La-XWu" firstAttribute="top" secondItem="Xdc-Lt-Gdk" secondAttribute="bottom" constant="80" id="hYI-Yk-l0I"/>
                             <constraint firstItem="mes-Tv-0wb" firstAttribute="top" secondItem="b5d-ut-jdZ" secondAttribute="top" constant="100" id="sn9-xt-kVy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="b5d-ut-jdZ"/>
                     </view>
                     <connections>
+                        <outlet property="restaurantDetailDescription" destination="vZj-La-XWu" id="TEe-rv-CN8"/>
                         <outlet property="restaurantDetailImg" destination="Xdc-Lt-Gdk" id="EBj-u9-EeG"/>
                         <outlet property="restaurantDetailLbl" destination="mes-Tv-0wb" id="wyW-dP-4qr"/>
                     </connections>
