@@ -17,26 +17,29 @@ class RecipeDetailVC: UIViewController {
     @IBOutlet weak var ingredientsLbl: UILabel!
     @IBOutlet weak var ingredientUnitLbl: UILabel!
     
-    var detailTitle: String?
-    var detailSubtitle: String?
-    var detailDescription: String?
-    var detailRecipeImage: UIImage?
-    var detailIngredients: String?
-    var detailIngredientUnit: String?
+    var recipe: Recipe?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        detailTitleLbl.text = detailTitle
-        detailSubtitleLbl.text = detailSubtitle
-        detailDescriptionLbl.text = detailDescription
-        detailImage.image = detailRecipeImage
-        ingredientsLbl.text = detailIngredients
-        ingredientUnitLbl.text = detailIngredientUnit
+        detailTitleLbl.text = recipe?.title
+        detailSubtitleLbl.text = recipe?.subtitle
+        detailDescriptionLbl.text = recipe?.description
+        detailImage.image = recipe?.recepieImage
+        ingredientsLbl.text = mappedIngredients()
+    }
+    
+    func mappedIngredients() -> String {
+        guard let recipe = recipe else { return "" }
         
-
+        var ingredients = ""
         
+        for ingredient in recipe.ingredientsArray {
+            ingredients += "\n \(ingredient.name) \(ingredient.amount) \(ingredient.unit)"
+        }
+        
+        return ingredients
     }
     
 }

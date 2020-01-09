@@ -9,14 +9,8 @@
 import UIKit
 
 struct Ingredient {
+    var name: String
     var amount: String
     var unit: String
-    
-    init(amount: String, unit: String) {
-        self.amount = amount
-        self.unit = unit
-    }
-    
-    
 }
  

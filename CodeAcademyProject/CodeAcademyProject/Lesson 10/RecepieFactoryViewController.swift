@@ -52,15 +52,7 @@ class RecepieFactoryViewController: UIViewController, UITableViewDelegate, UITab
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let recipeDetailVC = storyboard?.instantiateViewController(identifier: "DetailVC") as! RecipeDetailVC
         
-        let ingredient = recepiesData[indexPath.row].ingredientsArray
-        
-        
-        recipeDetailVC.detailDescription = recepiesData[indexPath.row].description
-        recipeDetailVC.detailTitle = recepiesData[indexPath.row].title
-        recipeDetailVC.detailSubtitle = recepiesData[indexPath.row].subtitle
-        recipeDetailVC.detailRecipeImage = recepiesData[indexPath.row].recepieImage
-        recipeDetailVC.detailIngredients = ingredient[indexPath.row].amount
-        recipeDetailVC.detailIngredientUnit = ingredient[indexPath.row].unit
+        recipeDetailVC.recipe = recepiesData[indexPath.row]
         
         self.navigationController?.pushViewController(recipeDetailVC, animated: true)
     }
