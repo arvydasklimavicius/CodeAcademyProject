@@ -66,11 +66,11 @@ class DatRecepieVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         
-        switch section {
-        case TableViewSections.restaurants.rawValue:
+        switch TableViewSections(rawValue: section) {
+        case .restaurants:
             return restaurantsArray.count
             
-        case TableViewSections.recepies.rawValue:
+        case .recepies:
             return recepieArray.count
         default:
                 return .zero

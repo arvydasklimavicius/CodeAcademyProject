@@ -26,9 +26,15 @@
 		CE63E43C23A7FF10008950E7 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43B23A7FF10008950E7 /* ContactListViewController.swift */; };
 		CE63E43E23A802E9008950E7 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43D23A802E9008950E7 /* ContactTableViewCell.swift */; };
 		CE63E44023A810C9008950E7 /* AddNewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43F23A810C9008950E7 /* AddNewContactViewController.swift */; };
+		CEC321A423C5258500E06410 /* RecipeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC321A323C5258500E06410 /* RecipeDetailVC.swift */; };
+		CEC321A623C6020500E06410 /* IngredientStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC321A523C6020500E06410 /* IngredientStruct.swift */; };
 		CEC3249623A29C1F003740DA /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3249523A29C1F003740DA /* LessonViewController.swift */; };
 		CED0E46123941DBB00A09200 /* GreetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0E46023941DBB00A09200 /* GreetingsViewController.swift */; };
 		CED0E464239428C800A09200 /* LegalMargaritaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0E463239428C800A09200 /* LegalMargaritaVC.swift */; };
+		CEE0B0F623C3A7760072017A /* RecepieFactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B0F523C3A7760072017A /* RecepieFactoryViewController.swift */; };
+		CEE0B0F923C3A7BC0072017A /* RecepieFactoryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B0F823C3A7BC0072017A /* RecepieFactoryClass.swift */; };
+		CEE0B0FB23C3A7C90072017A /* RecepieStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B0FA23C3A7C90072017A /* RecepieStruct.swift */; };
+		CEE0B0FD23C3AA170072017A /* RecepieFactoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B0FC23C3AA170072017A /* RecepieFactoryCell.swift */; };
 		CEE5BED2239591CA0059590E /* ReciepesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BED1239591CA0059590E /* ReciepesViewController.swift */; };
 		CEE5BED42395A0F80059590E /* RecepieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BED32395A0F80059590E /* RecepieTableViewCell.swift */; };
 		CEE5BED7239808F90059590E /* LoginScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE5BED6239808F90059590E /* LoginScreenVC.swift */; };
@@ -75,9 +81,15 @@
 		CE63E43B23A7FF10008950E7 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		CE63E43D23A802E9008950E7 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		CE63E43F23A810C9008950E7 /* AddNewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactViewController.swift; sourceTree = "<group>"; };
+		CEC321A323C5258500E06410 /* RecipeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailVC.swift; sourceTree = "<group>"; };
+		CEC321A523C6020500E06410 /* IngredientStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientStruct.swift; sourceTree = "<group>"; };
 		CEC3249523A29C1F003740DA /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
 		CED0E46023941DBB00A09200 /* GreetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsViewController.swift; sourceTree = "<group>"; };
 		CED0E463239428C800A09200 /* LegalMargaritaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalMargaritaVC.swift; sourceTree = "<group>"; };
+		CEE0B0F523C3A7760072017A /* RecepieFactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieFactoryViewController.swift; sourceTree = "<group>"; };
+		CEE0B0F823C3A7BC0072017A /* RecepieFactoryClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieFactoryClass.swift; sourceTree = "<group>"; };
+		CEE0B0FA23C3A7C90072017A /* RecepieStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieStruct.swift; sourceTree = "<group>"; };
+		CEE0B0FC23C3AA170072017A /* RecepieFactoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieFactoryCell.swift; sourceTree = "<group>"; };
 		CEE5BED1239591CA0059590E /* ReciepesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciepesViewController.swift; sourceTree = "<group>"; };
 		CEE5BED32395A0F80059590E /* RecepieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieTableViewCell.swift; sourceTree = "<group>"; };
 		CEE5BED6239808F90059590E /* LoginScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenVC.swift; sourceTree = "<group>"; };
@@ -143,6 +155,7 @@
 				CE63E43A23A7DD38008950E7 /* Lesson 8 */,
 				CE4B27EE23ABD285009BBC9F /* Lesson 9 */,
 				CE4B27F123ABF733009BBC9F /* Lesson 9 Recepie App */,
+				CEE0B0F723C3A77E0072017A /* Lesson 10 */,
 				CE3FC8F4238D992100DDF4E0 /* Main.storyboard */,
 				CE3FC8F7238D992300DDF4E0 /* Assets.xcassets */,
 				CE3FC8F9238D992300DDF4E0 /* LaunchScreen.storyboard */,
@@ -222,6 +235,19 @@
 				CED0E463239428C800A09200 /* LegalMargaritaVC.swift */,
 			);
 			path = "Homework Lesson 3";
+			sourceTree = "<group>";
+		};
+		CEE0B0F723C3A77E0072017A /* Lesson 10 */ = {
+			isa = PBXGroup;
+			children = (
+				CEE0B0F523C3A7760072017A /* RecepieFactoryViewController.swift */,
+				CEE0B0FC23C3AA170072017A /* RecepieFactoryCell.swift */,
+				CEE0B0F823C3A7BC0072017A /* RecepieFactoryClass.swift */,
+				CEE0B0FA23C3A7C90072017A /* RecepieStruct.swift */,
+				CEC321A323C5258500E06410 /* RecipeDetailVC.swift */,
+				CEC321A523C6020500E06410 /* IngredientStruct.swift */,
+			);
+			path = "Lesson 10";
 			sourceTree = "<group>";
 		};
 		CEE5BED52395A14B0059590E /* Lesson 4 */ = {
@@ -375,11 +401,16 @@
 				CE63E43C23A7FF10008950E7 /* ContactListViewController.swift in Sources */,
 				CEC3249623A29C1F003740DA /* LessonViewController.swift in Sources */,
 				CEE5BED7239808F90059590E /* LoginScreenVC.swift in Sources */,
+				CEE0B0FB23C3A7C90072017A /* RecepieStruct.swift in Sources */,
 				CE4B27F523ABF8DD009BBC9F /* DatAppCell.swift in Sources */,
+				CEE0B0F623C3A7760072017A /* RecepieFactoryViewController.swift in Sources */,
 				CE4B27FB23B8E632009BBC9F /* RecepiesDetailVC.swift in Sources */,
+				CEE0B0FD23C3AA170072017A /* RecepieFactoryCell.swift in Sources */,
 				CE63E44023A810C9008950E7 /* AddNewContactViewController.swift in Sources */,
 				CEE5BEDC239933200059590E /* RecepieDetailVC.swift in Sources */,
+				CEC321A623C6020500E06410 /* IngredientStruct.swift in Sources */,
 				CED0E464239428C800A09200 /* LegalMargaritaVC.swift in Sources */,
+				CEC321A423C5258500E06410 /* RecipeDetailVC.swift in Sources */,
 				CEE5BED42395A0F80059590E /* RecepieTableViewCell.swift in Sources */,
 				CEE5BEE9239EBA480059590E /* ContactsFormVC.swift in Sources */,
 				CE3FC9132390528400DDF4E0 /* HelloWorldButtonVC.swift in Sources */,
@@ -387,6 +418,7 @@
 				CED0E46123941DBB00A09200 /* GreetingsViewController.swift in Sources */,
 				CE4B27F323ABF81C009BBC9F /* DatRecepieVC.swift in Sources */,
 				CE4B27F023ABD2B2009BBC9F /* LessonNineViewController.swift in Sources */,
+				CEE0B0F923C3A7BC0072017A /* RecepieFactoryClass.swift in Sources */,
 				CE3FC911239047F600DDF4E0 /* CalculatorVC.swift in Sources */,
 				CEE5BEDE2399650E0059590E /* CardGameViewController.swift in Sources */,
 				CEE5BED9239811C80059590E /* LoggedVC.swift in Sources */,
