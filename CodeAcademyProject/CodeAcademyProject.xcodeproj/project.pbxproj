@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE03F79F23CA04B000F4EDEA /* JediClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F79E23CA04B000F4EDEA /* JediClass.swift */; };
+		CE03F7A123CA04C000F4EDEA /* SpaceshipClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F7A023CA04C000F4EDEA /* SpaceshipClass.swift */; };
+		CE03F7A323CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F7A223CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift */; };
+		CE03F7A523CA123100F4EDEA /* StarWarsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F7A423CA123100F4EDEA /* StarWarsDetailsVC.swift */; };
 		CE1515E823C79A5300B36496 /* Lesson11.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515E723C79A5300B36496 /* Lesson11.swift */; };
 		CE1515EA23C79C2900B36496 /* Lesson11VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515E923C79C2900B36496 /* Lesson11VC.swift */; };
 		CE1515EC23C7A9B300B36496 /* NewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515EB23C7A9B300B36496 /* NewButton.swift */; };
+		CE1515EF23C8BC2E00B36496 /* StarWarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515EE23C8BC2E00B36496 /* StarWarsVC.swift */; };
+		CE1515F123C8BC7000B36496 /* StarWarsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515F023C8BC7000B36496 /* StarWarsCell.swift */; };
 		CE39A5B0239EC1A50035FD13 /* InformationSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39A5AF239EC1A50035FD13 /* InformationSummaryVC.swift */; };
 		CE3FC8EF238D992100DDF4E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FC8EE238D992100DDF4E0 /* AppDelegate.swift */; };
 		CE3FC8F1238D992100DDF4E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FC8F0238D992100DDF4E0 /* SceneDelegate.swift */; };
@@ -61,9 +67,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE03F79E23CA04B000F4EDEA /* JediClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JediClass.swift; sourceTree = "<group>"; };
+		CE03F7A023CA04C000F4EDEA /* SpaceshipClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceshipClass.swift; sourceTree = "<group>"; };
+		CE03F7A223CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDescribableProtocol.swift; sourceTree = "<group>"; };
+		CE03F7A423CA123100F4EDEA /* StarWarsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsDetailsVC.swift; sourceTree = "<group>"; };
 		CE1515E723C79A5300B36496 /* Lesson11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11.swift; sourceTree = "<group>"; };
 		CE1515E923C79C2900B36496 /* Lesson11VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11VC.swift; sourceTree = "<group>"; };
 		CE1515EB23C7A9B300B36496 /* NewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButton.swift; sourceTree = "<group>"; };
+		CE1515EE23C8BC2E00B36496 /* StarWarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsVC.swift; sourceTree = "<group>"; };
+		CE1515F023C8BC7000B36496 /* StarWarsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsCell.swift; sourceTree = "<group>"; };
 		CE39A5AF239EC1A50035FD13 /* InformationSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationSummaryVC.swift; sourceTree = "<group>"; };
 		CE3FC8EB238D992100DDF4E0 /* CodeAcademyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeAcademyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3FC8EE238D992100DDF4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +148,19 @@
 			path = "Lesson 11";
 			sourceTree = "<group>";
 		};
+		CE1515ED23C8BBD100B36496 /* Lesson 11 StarWars */ = {
+			isa = PBXGroup;
+			children = (
+				CE1515EE23C8BC2E00B36496 /* StarWarsVC.swift */,
+				CE03F7A423CA123100F4EDEA /* StarWarsDetailsVC.swift */,
+				CE1515F023C8BC7000B36496 /* StarWarsCell.swift */,
+				CE03F7A223CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift */,
+				CE03F79E23CA04B000F4EDEA /* JediClass.swift */,
+				CE03F7A023CA04C000F4EDEA /* SpaceshipClass.swift */,
+			);
+			path = "Lesson 11 StarWars";
+			sourceTree = "<group>";
+		};
 		CE3FC8E2238D992100DDF4E0 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +198,7 @@
 				CE4B27F123ABF733009BBC9F /* Lesson 9 Recepie App */,
 				CEE0B0F723C3A77E0072017A /* Lesson 10 */,
 				CE1515E623C799BB00B36496 /* Lesson 11 */,
+				CE1515ED23C8BBD100B36496 /* Lesson 11 StarWars */,
 				CE3FC8F4238D992100DDF4E0 /* Main.storyboard */,
 				CE3FC8F7238D992300DDF4E0 /* Assets.xcassets */,
 				CE3FC8F9238D992300DDF4E0 /* LaunchScreen.storyboard */,
@@ -258,10 +284,10 @@
 			isa = PBXGroup;
 			children = (
 				CEE0B0F523C3A7760072017A /* RecepieFactoryViewController.swift */,
+				CEC321A323C5258500E06410 /* RecipeDetailVC.swift */,
 				CEE0B0FC23C3AA170072017A /* RecepieFactoryCell.swift */,
 				CEE0B0F823C3A7BC0072017A /* RecepieFactoryClass.swift */,
 				CEE0B0FA23C3A7C90072017A /* RecepieStruct.swift */,
-				CEC321A323C5258500E06410 /* RecipeDetailVC.swift */,
 				CEC321A523C6020500E06410 /* IngredientStruct.swift */,
 			);
 			path = "Lesson 10";
@@ -418,12 +444,14 @@
 				CE63E43C23A7FF10008950E7 /* ContactListViewController.swift in Sources */,
 				CEC3249623A29C1F003740DA /* LessonViewController.swift in Sources */,
 				CEE5BED7239808F90059590E /* LoginScreenVC.swift in Sources */,
+				CE03F79F23CA04B000F4EDEA /* JediClass.swift in Sources */,
 				CEE0B0FB23C3A7C90072017A /* RecepieStruct.swift in Sources */,
 				CE4B27F523ABF8DD009BBC9F /* DatAppCell.swift in Sources */,
 				CEE0B0F623C3A7760072017A /* RecepieFactoryViewController.swift in Sources */,
 				CE4B27FB23B8E632009BBC9F /* RecepiesDetailVC.swift in Sources */,
 				CEE0B0FD23C3AA170072017A /* RecepieFactoryCell.swift in Sources */,
 				CE63E44023A810C9008950E7 /* AddNewContactViewController.swift in Sources */,
+				CE1515F123C8BC7000B36496 /* StarWarsCell.swift in Sources */,
 				CEE5BEDC239933200059590E /* RecepieDetailVC.swift in Sources */,
 				CEC321A623C6020500E06410 /* IngredientStruct.swift in Sources */,
 				CE1515E823C79A5300B36496 /* Lesson11.swift in Sources */,
@@ -431,18 +459,22 @@
 				CEC321A423C5258500E06410 /* RecipeDetailVC.swift in Sources */,
 				CEE5BED42395A0F80059590E /* RecepieTableViewCell.swift in Sources */,
 				CEE5BEE9239EBA480059590E /* ContactsFormVC.swift in Sources */,
+				CE03F7A123CA04C000F4EDEA /* SpaceshipClass.swift in Sources */,
 				CE3FC9132390528400DDF4E0 /* HelloWorldButtonVC.swift in Sources */,
 				CEE5BEE1239D5C910059590E /* ContactsVC.swift in Sources */,
 				CED0E46123941DBB00A09200 /* GreetingsViewController.swift in Sources */,
 				CE4B27F323ABF81C009BBC9F /* DatRecepieVC.swift in Sources */,
 				CE4B27F023ABD2B2009BBC9F /* LessonNineViewController.swift in Sources */,
+				CE03F7A523CA123100F4EDEA /* StarWarsDetailsVC.swift in Sources */,
 				CEE0B0F923C3A7BC0072017A /* RecepieFactoryClass.swift in Sources */,
 				CE3FC911239047F600DDF4E0 /* CalculatorVC.swift in Sources */,
 				CEE5BEDE2399650E0059590E /* CardGameViewController.swift in Sources */,
+				CE03F7A323CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift in Sources */,
 				CE1515EC23C7A9B300B36496 /* NewButton.swift in Sources */,
 				CEE5BED9239811C80059590E /* LoggedVC.swift in Sources */,
 				CE39A5B0239EC1A50035FD13 /* InformationSummaryVC.swift in Sources */,
 				CE4B27F723AC0644009BBC9F /* DataModel.swift in Sources */,
+				CE1515EF23C8BC2E00B36496 /* StarWarsVC.swift in Sources */,
 				CEE5BEE6239E52B80059590E /* AddContactVC.swift in Sources */,
 				CE3FC8F3238D992100DDF4E0 /* ViewController.swift in Sources */,
 				CE1515EA23C79C2900B36496 /* Lesson11VC.swift in Sources */,

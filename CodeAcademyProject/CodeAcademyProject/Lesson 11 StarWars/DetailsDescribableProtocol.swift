@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+protocol DetailsDescribable {
+    var name: String { get }
+    var description: String { get }
+    
+    
+}

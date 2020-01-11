@@ -1,15 +1,11 @@
-//
-//  StarWarsCell.swift
-//  CodeAcademyProject
-//
-//  Created by Arvydas Klimavicius on 2020-01-10.
-//  Copyright © 2020 Arvydas Klimavicius. All rights reserved.
-//
 
 import UIKit
 
 class StarWarsCell: UITableViewCell {
-
+    
+    @IBOutlet weak var cellTitle: UILabel!
+    @IBOutlet weak var cellImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

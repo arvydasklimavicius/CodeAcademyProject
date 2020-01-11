@@ -6,4 +6,8 @@
 //  Copyright © 2020 Arvydas Klimavicius. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class Spaceship {
+    
+}

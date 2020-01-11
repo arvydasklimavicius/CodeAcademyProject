@@ -1,30 +1,55 @@
-//
-//  StarWarsVC.swift
-//  CodeAcademyProject
-//
-//  Created by Arvydas Klimavicius on 2020-01-10.
-//  Copyright © 2020 Arvydas Klimavicius. All rights reserved.
-//
+
 
 import UIKit
 
-class StarWarsVC: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+class StarWarsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
     
 
-    /*
-    // MARK: - Navigation
+    
+    @IBOutlet weak var starWarsTableView: UITableView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        starWarsTableView.delegate = self
+        starWarsTableView.dataSource = self
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+       
     }
-    */
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
+        switch section {
+        case 0:
+            return "Jedi"
+        case 1:
+            return "Spaceship"
+        default:
+            fatalError("Error, unhandled Section")
+        }
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "StarWarsCell", for: indexPath) as! StarWarsCell
+        
+        tableView.separatorStyle = .none
+        
+        return cell
+    }
+
+    
 
 }
+
+
+
+

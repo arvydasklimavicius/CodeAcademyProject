@@ -14,9 +14,5 @@ struct Recipe {
     var subtitle: String
     var recepieImage: UIImage
     var description: String
-    var ingredientsArray = [
-        Ingredient(name: "svogunas", amount: "2", unit: "vnt"),
-        Ingredient(name: "pipirai", amount: "1", unit: "saukstas")
-    ]
-    
+    var ingredientsArray: [Ingredient]
 }
