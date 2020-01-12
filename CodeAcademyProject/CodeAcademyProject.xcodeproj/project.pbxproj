@@ -11,6 +11,7 @@
 		CE03F7A123CA04C000F4EDEA /* SpaceshipClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F7A023CA04C000F4EDEA /* SpaceshipClass.swift */; };
 		CE03F7A323CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F7A223CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift */; };
 		CE03F7A523CA123100F4EDEA /* StarWarsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F7A423CA123100F4EDEA /* StarWarsDetailsVC.swift */; };
+		CE03F7A723CB183100F4EDEA /* DataInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F7A623CB183100F4EDEA /* DataInput.swift */; };
 		CE1515E823C79A5300B36496 /* Lesson11.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515E723C79A5300B36496 /* Lesson11.swift */; };
 		CE1515EA23C79C2900B36496 /* Lesson11VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515E923C79C2900B36496 /* Lesson11VC.swift */; };
 		CE1515EC23C7A9B300B36496 /* NewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515EB23C7A9B300B36496 /* NewButton.swift */; };
@@ -35,6 +36,7 @@
 		CE63E43C23A7FF10008950E7 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43B23A7FF10008950E7 /* ContactListViewController.swift */; };
 		CE63E43E23A802E9008950E7 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43D23A802E9008950E7 /* ContactTableViewCell.swift */; };
 		CE63E44023A810C9008950E7 /* AddNewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63E43F23A810C9008950E7 /* AddNewContactViewController.swift */; };
+		CE7821C323CB3FF8007492D8 /* DarkSideClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7821C223CB3FF8007492D8 /* DarkSideClass.swift */; };
 		CEC321A423C5258500E06410 /* RecipeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC321A323C5258500E06410 /* RecipeDetailVC.swift */; };
 		CEC321A623C6020500E06410 /* IngredientStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC321A523C6020500E06410 /* IngredientStruct.swift */; };
 		CEC3249623A29C1F003740DA /* LessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3249523A29C1F003740DA /* LessonViewController.swift */; };
@@ -71,6 +73,7 @@
 		CE03F7A023CA04C000F4EDEA /* SpaceshipClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceshipClass.swift; sourceTree = "<group>"; };
 		CE03F7A223CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDescribableProtocol.swift; sourceTree = "<group>"; };
 		CE03F7A423CA123100F4EDEA /* StarWarsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsDetailsVC.swift; sourceTree = "<group>"; };
+		CE03F7A623CB183100F4EDEA /* DataInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInput.swift; sourceTree = "<group>"; };
 		CE1515E723C79A5300B36496 /* Lesson11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11.swift; sourceTree = "<group>"; };
 		CE1515E923C79C2900B36496 /* Lesson11VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11VC.swift; sourceTree = "<group>"; };
 		CE1515EB23C7A9B300B36496 /* NewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButton.swift; sourceTree = "<group>"; };
@@ -99,6 +102,7 @@
 		CE63E43B23A7FF10008950E7 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		CE63E43D23A802E9008950E7 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		CE63E43F23A810C9008950E7 /* AddNewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactViewController.swift; sourceTree = "<group>"; };
+		CE7821C223CB3FF8007492D8 /* DarkSideClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSideClass.swift; sourceTree = "<group>"; };
 		CEC321A323C5258500E06410 /* RecipeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailVC.swift; sourceTree = "<group>"; };
 		CEC321A523C6020500E06410 /* IngredientStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientStruct.swift; sourceTree = "<group>"; };
 		CEC3249523A29C1F003740DA /* LessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 				CE03F7A223CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift */,
 				CE03F79E23CA04B000F4EDEA /* JediClass.swift */,
 				CE03F7A023CA04C000F4EDEA /* SpaceshipClass.swift */,
+				CE7821C223CB3FF8007492D8 /* DarkSideClass.swift */,
+				CE03F7A623CB183100F4EDEA /* DataInput.swift */,
 			);
 			path = "Lesson 11 StarWars";
 			sourceTree = "<group>";
@@ -468,6 +474,7 @@
 				CE03F7A523CA123100F4EDEA /* StarWarsDetailsVC.swift in Sources */,
 				CEE0B0F923C3A7BC0072017A /* RecepieFactoryClass.swift in Sources */,
 				CE3FC911239047F600DDF4E0 /* CalculatorVC.swift in Sources */,
+				CE03F7A723CB183100F4EDEA /* DataInput.swift in Sources */,
 				CEE5BEDE2399650E0059590E /* CardGameViewController.swift in Sources */,
 				CE03F7A323CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift in Sources */,
 				CE1515EC23C7A9B300B36496 /* NewButton.swift in Sources */,
@@ -480,6 +487,7 @@
 				CE1515EA23C79C2900B36496 /* Lesson11VC.swift in Sources */,
 				CE4B27F923B8E617009BBC9F /* RestaurantsDetailVC.swift in Sources */,
 				CE3FC8EF238D992100DDF4E0 /* AppDelegate.swift in Sources */,
+				CE7821C323CB3FF8007492D8 /* DarkSideClass.swift in Sources */,
 				CE63E43E23A802E9008950E7 /* ContactTableViewCell.swift in Sources */,
 				CEE5BED2239591CA0059590E /* ReciepesViewController.swift in Sources */,
 				CE3FC8F1238D992100DDF4E0 /* SceneDelegate.swift in Sources */,

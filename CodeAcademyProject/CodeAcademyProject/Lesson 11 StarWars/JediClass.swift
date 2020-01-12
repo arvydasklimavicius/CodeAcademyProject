@@ -8,6 +8,18 @@
 
 import UIKit
 
-class Jedi {
+struct Jedi: DetailsDescribable {
+    let jediName: String
+    let jediImage: UIImage
+    let jediBio: String
+    
+    
+    var screenImage: UIImage { return jediImage }
+    var unitClass: String { return "Jedi" }
+    var name: String { return jediName }
+    var description: String { return jediBio }
+    
+    
+    
     
 }

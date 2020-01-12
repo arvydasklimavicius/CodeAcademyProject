@@ -8,6 +8,16 @@
 
 import UIKit
 
-class Spaceship {
+struct Spaceship: DetailsDescribable {
+    let spaceshipName: String
+    let spaceshipImage: UIImage
+    let spaceshipDescription: String
+    
+    
+    var name: String { return spaceshipName }
+    var description: String { return spaceshipDescription }
+    var screenImage: UIImage { return spaceshipImage }
+    var unitClass: String { return "Spaceship"}
+    
     
 }
