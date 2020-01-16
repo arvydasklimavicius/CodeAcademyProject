@@ -1,10 +1,11 @@
 
 
 import UIKit
+import AVFoundation
 
 class StarWarsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    
+    var audioPalayer: AVAudioPlayer?
 
     
     @IBOutlet weak var starWarsTableView: UITableView!
@@ -14,6 +15,16 @@ class StarWarsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         
         starWarsTableView.delegate = self
         starWarsTableView.dataSource = self
+        
+        guard let path = Bundle.main.path(forResource: "HappyThreeChirp", ofType: "mp3")
+            else { return }
+        let url = URL(fileURLWithPath: path)
+        audioPalayer = try? AVAudioPlayer(contentsOf: url, fileTypeHint: nil)
+        audioPalayer?.prepareToPlay()
+//        audioPalayer?.setVolume(0.5, fadeDuration: 0.1)
+         audioPalayer?.play()
+       
+        
 
        
     }
@@ -90,6 +101,8 @@ class StarWarsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
             let jediVC = storyboard?.instantiateViewController(identifier: "StarWarsDetailsVC") as! StarWarsDetailsVC
             jediVC.displayData = jediArray[indexPath.row]
             self.navigationController?.pushViewController(jediVC, animated: true)
+            
+          
             
         case .spaceship:
             let spaceshipVC = storyboard?.instantiateViewController(identifier: "StarWarsDetailsVC") as! StarWarsDetailsVC

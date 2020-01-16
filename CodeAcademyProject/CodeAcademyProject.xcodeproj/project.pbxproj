@@ -12,11 +12,19 @@
 		CE03F7A323CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F7A223CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift */; };
 		CE03F7A523CA123100F4EDEA /* StarWarsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F7A423CA123100F4EDEA /* StarWarsDetailsVC.swift */; };
 		CE03F7A723CB183100F4EDEA /* DataInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03F7A623CB183100F4EDEA /* DataInput.swift */; };
+		CE04647323CC8CB400AD3417 /* LonelyHello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE04647223CC8CB400AD3417 /* LonelyHello.mp3 */; };
+		CE04647623CC8EEB00AD3417 /* HappyThreeChirp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE04647523CC8EEB00AD3417 /* HappyThreeChirp.mp3 */; };
 		CE1515E823C79A5300B36496 /* Lesson11.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515E723C79A5300B36496 /* Lesson11.swift */; };
 		CE1515EA23C79C2900B36496 /* Lesson11VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515E923C79C2900B36496 /* Lesson11VC.swift */; };
 		CE1515EC23C7A9B300B36496 /* NewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515EB23C7A9B300B36496 /* NewButton.swift */; };
 		CE1515EF23C8BC2E00B36496 /* StarWarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515EE23C8BC2E00B36496 /* StarWarsVC.swift */; };
 		CE1515F123C8BC7000B36496 /* StarWarsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1515F023C8BC7000B36496 /* StarWarsCell.swift */; };
+		CE29352A23CCCC5400BAA58A /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29352923CCCC5400BAA58A /* ShopVC.swift */; };
+		CE29352C23CCDE3400BAA58A /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29352B23CCDE3400BAA58A /* ProductCell.swift */; };
+		CE29352E23CCE3E900BAA58A /* ProductClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29352D23CCE3E900BAA58A /* ProductClass.swift */; };
+		CE29353023CCE46600BAA58A /* ShoppinCartClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29352F23CCE46600BAA58A /* ShoppinCartClass.swift */; };
+		CE29353223CCE51300BAA58A /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29353123CCE51300BAA58A /* ProductList.swift */; };
+		CE29353823CCF78C00BAA58A /* ShoppingCartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE29353723CCF78C00BAA58A /* ShoppingCartVC.swift */; };
 		CE39A5B0239EC1A50035FD13 /* InformationSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39A5AF239EC1A50035FD13 /* InformationSummaryVC.swift */; };
 		CE3FC8EF238D992100DDF4E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FC8EE238D992100DDF4E0 /* AppDelegate.swift */; };
 		CE3FC8F1238D992100DDF4E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FC8F0238D992100DDF4E0 /* SceneDelegate.swift */; };
@@ -74,11 +82,19 @@
 		CE03F7A223CA0D1E00F4EDEA /* DetailsDescribableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDescribableProtocol.swift; sourceTree = "<group>"; };
 		CE03F7A423CA123100F4EDEA /* StarWarsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsDetailsVC.swift; sourceTree = "<group>"; };
 		CE03F7A623CB183100F4EDEA /* DataInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInput.swift; sourceTree = "<group>"; };
+		CE04647223CC8CB400AD3417 /* LonelyHello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LonelyHello.mp3; sourceTree = "<group>"; };
+		CE04647523CC8EEB00AD3417 /* HappyThreeChirp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HappyThreeChirp.mp3; sourceTree = "<group>"; };
 		CE1515E723C79A5300B36496 /* Lesson11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11.swift; sourceTree = "<group>"; };
 		CE1515E923C79C2900B36496 /* Lesson11VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11VC.swift; sourceTree = "<group>"; };
 		CE1515EB23C7A9B300B36496 /* NewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButton.swift; sourceTree = "<group>"; };
 		CE1515EE23C8BC2E00B36496 /* StarWarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsVC.swift; sourceTree = "<group>"; };
 		CE1515F023C8BC7000B36496 /* StarWarsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsCell.swift; sourceTree = "<group>"; };
+		CE29352923CCCC5400BAA58A /* ShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
+		CE29352B23CCDE3400BAA58A /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		CE29352D23CCE3E900BAA58A /* ProductClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductClass.swift; sourceTree = "<group>"; };
+		CE29352F23CCE46600BAA58A /* ShoppinCartClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppinCartClass.swift; sourceTree = "<group>"; };
+		CE29353123CCE51300BAA58A /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		CE29353723CCF78C00BAA58A /* ShoppingCartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartVC.swift; sourceTree = "<group>"; };
 		CE39A5AF239EC1A50035FD13 /* InformationSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationSummaryVC.swift; sourceTree = "<group>"; };
 		CE3FC8EB238D992100DDF4E0 /* CodeAcademyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeAcademyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3FC8EE238D992100DDF4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +183,19 @@
 			path = "Lesson 11 StarWars";
 			sourceTree = "<group>";
 		};
+		CE29352823CCCBEF00BAA58A /* Lesson 12 */ = {
+			isa = PBXGroup;
+			children = (
+				CE29352923CCCC5400BAA58A /* ShopVC.swift */,
+				CE29353723CCF78C00BAA58A /* ShoppingCartVC.swift */,
+				CE29352B23CCDE3400BAA58A /* ProductCell.swift */,
+				CE29352D23CCE3E900BAA58A /* ProductClass.swift */,
+				CE29352F23CCE46600BAA58A /* ShoppinCartClass.swift */,
+				CE29353123CCE51300BAA58A /* ProductList.swift */,
+			);
+			path = "Lesson 12";
+			sourceTree = "<group>";
+		};
 		CE3FC8E2238D992100DDF4E0 = {
 			isa = PBXGroup;
 			children = (
@@ -205,10 +234,13 @@
 				CEE0B0F723C3A77E0072017A /* Lesson 10 */,
 				CE1515E623C799BB00B36496 /* Lesson 11 */,
 				CE1515ED23C8BBD100B36496 /* Lesson 11 StarWars */,
+				CE29352823CCCBEF00BAA58A /* Lesson 12 */,
 				CE3FC8F4238D992100DDF4E0 /* Main.storyboard */,
 				CE3FC8F7238D992300DDF4E0 /* Assets.xcassets */,
 				CE3FC8F9238D992300DDF4E0 /* LaunchScreen.storyboard */,
 				CE3FC8FC238D992300DDF4E0 /* Info.plist */,
+				CE04647223CC8CB400AD3417 /* LonelyHello.mp3 */,
+				CE04647523CC8EEB00AD3417 /* HappyThreeChirp.mp3 */,
 			);
 			path = CodeAcademyProject;
 			sourceTree = "<group>";
@@ -426,6 +458,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE04647623CC8EEB00AD3417 /* HappyThreeChirp.mp3 in Resources */,
+				CE04647323CC8CB400AD3417 /* LonelyHello.mp3 in Resources */,
 				CE3FC8FB238D992300DDF4E0 /* LaunchScreen.storyboard in Resources */,
 				CE3FC8F8238D992300DDF4E0 /* Assets.xcassets in Resources */,
 				CE3FC8F6238D992100DDF4E0 /* Main.storyboard in Resources */,
@@ -457,6 +491,7 @@
 				CE4B27FB23B8E632009BBC9F /* RecepiesDetailVC.swift in Sources */,
 				CEE0B0FD23C3AA170072017A /* RecepieFactoryCell.swift in Sources */,
 				CE63E44023A810C9008950E7 /* AddNewContactViewController.swift in Sources */,
+				CE29353223CCE51300BAA58A /* ProductList.swift in Sources */,
 				CE1515F123C8BC7000B36496 /* StarWarsCell.swift in Sources */,
 				CEE5BEDC239933200059590E /* RecepieDetailVC.swift in Sources */,
 				CEC321A623C6020500E06410 /* IngredientStruct.swift in Sources */,
@@ -464,6 +499,7 @@
 				CED0E464239428C800A09200 /* LegalMargaritaVC.swift in Sources */,
 				CEC321A423C5258500E06410 /* RecipeDetailVC.swift in Sources */,
 				CEE5BED42395A0F80059590E /* RecepieTableViewCell.swift in Sources */,
+				CE29352C23CCDE3400BAA58A /* ProductCell.swift in Sources */,
 				CEE5BEE9239EBA480059590E /* ContactsFormVC.swift in Sources */,
 				CE03F7A123CA04C000F4EDEA /* SpaceshipClass.swift in Sources */,
 				CE3FC9132390528400DDF4E0 /* HelloWorldButtonVC.swift in Sources */,
@@ -481,6 +517,10 @@
 				CEE5BED9239811C80059590E /* LoggedVC.swift in Sources */,
 				CE39A5B0239EC1A50035FD13 /* InformationSummaryVC.swift in Sources */,
 				CE4B27F723AC0644009BBC9F /* DataModel.swift in Sources */,
+				CE29352E23CCE3E900BAA58A /* ProductClass.swift in Sources */,
+				CE29353023CCE46600BAA58A /* ShoppinCartClass.swift in Sources */,
+				CE29353823CCF78C00BAA58A /* ShoppingCartVC.swift in Sources */,
+				CE29352A23CCCC5400BAA58A /* ShopVC.swift in Sources */,
 				CE1515EF23C8BC2E00B36496 /* StarWarsVC.swift in Sources */,
 				CEE5BEE6239E52B80059590E /* AddContactVC.swift in Sources */,
 				CE3FC8F3238D992100DDF4E0 /* ViewController.swift in Sources */,
