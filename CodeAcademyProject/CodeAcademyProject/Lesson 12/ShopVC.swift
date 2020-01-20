@@ -8,7 +8,11 @@
 
 import UIKit
 
+
 class ShopVC: UIViewController {
+    
+    
+    
     @IBOutlet weak var productListTableView: UITableView!
     
     override func viewDidLoad() {
@@ -49,7 +53,9 @@ extension ShopVC: UITableViewDelegate, UITableViewDataSource {
         
         
         return cell
+        
     }
+    
     
     
 }

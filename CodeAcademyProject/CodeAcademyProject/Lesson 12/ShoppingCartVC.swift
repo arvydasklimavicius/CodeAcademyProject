@@ -11,6 +11,7 @@ import UIKit
 class ShoppingCartVC: UIViewController {
 
     @IBOutlet weak var shoppingCartTableView: UITableView!
+    @IBOutlet weak var sortByNameBtnTitle: UIButton!
     
     var itemsInCart = ShoppingCart.shared.products
     
@@ -20,6 +21,9 @@ class ShoppingCartVC: UIViewController {
         
         shoppingCartTableView.dataSource = self
         shoppingCartTableView.delegate = self
+        sortByNameBtnTitle.layer.cornerRadius = 8
+        sortByNameBtnTitle.layer.borderColor = UIColor.black.cgColor
+        sortByNameBtnTitle.layer.borderWidth = 3
         
 
     }

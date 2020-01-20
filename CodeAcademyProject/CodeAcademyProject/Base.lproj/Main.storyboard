@@ -199,6 +199,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="shoppingCartTableView" destination="NZy-tQ-haI" id="VYL-oi-2ic"/>
+                        <outlet property="sortByNameBtnTitle" destination="mOI-Z5-5Kj" id="D0o-hK-7Hm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFr-PL-g5R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
